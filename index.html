@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Sample Page</title>
+        <script src="./jquery-2.1.4.min.js"></script>
+        <link rel="stylesheet" href="./bootstrap.min.css">
+        <! -- ライブラリはWebから持ってくることもできる。上記のライブラリの読み込みをコメントアウトして、
+        　　　下のコメントアウトを外して試してみてね。
+        -->
+        <!--
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        -->
+    </head>
+    <body>
+        <script src="./sample.js"></script>
+
+        <!-- Bootstrapのグリッドスタイルの例-->
+        <div class="row">
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">.col-md-8</div>
+            <div class="col-md-4">.col-md-4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-4">.col-md-4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">.col-md-6</div>
+            <div class="col-md-6">.col-md-6</div>
+        </div>
+        <!-- Bootstrapのグリッドスタイルの例-->
+
+        <div class="container">
+            <div class="row">
+                <h1>Hello</h1>
+                <button id="background" type="button" onclick="changeBgColor()">Change backgroud color</button>
+                <button class="btn" id="worldBtn" type="button">Change world color</button>
+            </div>
+        </div>
+
+        <h1 id="world">world!</h1>
+    </body>
+</html>
+
